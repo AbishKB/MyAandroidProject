@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmployeeActivity">
+
+    <fragment
+        android:id="@+id/Attendance"
+        android:name="com.example.student23.Fragment1"
+        android:layout_width="146dp"
+        android:layout_height="215dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginBottom="249dp"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toEndOf="@+id/Notifications"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <fragment
+        android:id="@+id/Notifications"
+        android:name="com.example.student23.Fragment2"
+        android:layout_width="145dp"
+        android:layout_height="219dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="44dp"
+        android:layout_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <fragment
+        android:id="@+id/Tansport"
+        android:name="com.example.student23.Fragment3"
+        android:layout_width="145dp"
+        android:layout_height="207dp"
+        android:layout_marginStart="196dp"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.947" />
+
+    <fragment
+        android:id="@+id/IThelpdesk"
+        android:name="com.example.student23.Fragment4"
+        android:layout_width="145dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="28dp"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.946" />
+
+</android.support.constraint.ConstraintLayout>
